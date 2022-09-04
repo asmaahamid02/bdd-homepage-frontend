@@ -79,7 +79,7 @@ img {
 }
 /* CSS Hero */
 .hero {
-  background-image: url('../images/slider/slide1.jpg');
+  background-image: url('../images/parallax-7.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -161,7 +161,7 @@ img {
   padding: 8px 15px;
   background-color: #fff;
   margin-right: 20px;
-  /* height: 70vh; */
+  flex-wrap: wrap;
   flex-basis: 20%;
   box-shadow: 10px 10px 5px #cac8c8;
 }
@@ -191,4 +191,27 @@ img {
   line-height: 1.5;
   color: #646464;
   font-weight: 700;
+}
+
+/* Video Section */
+.video {
+  background-image: url('../images/parallax-7.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video-title {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.video-img {
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+}
+
+.video-img img {
+  border-radius: 10px;
 }
