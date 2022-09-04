@@ -25,6 +25,14 @@ img {
 .dropdown-menu {
   display: none;
 }
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
 /* CSS Hero */
 .hero {
   background-image: url('../images/slider/slide1.jpg');
