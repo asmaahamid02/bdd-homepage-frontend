@@ -19,8 +19,9 @@ img {
 .btn {
   text-decoration: none;
   border: none;
-  font-size: 14px;
-  padding: 14px 18px;
+  font-size: 0.9rem;
+  padding: 14px 10px;
+  text-align: center;
 }
 
 .btn-blue {
@@ -33,11 +34,14 @@ img {
   border-radius: 30px;
 }
 
+.break {
+  display: block;
+}
 /* CSS Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
-  height: 70px;
+  height: 80px;
 }
 
 .dropdown-menu {
@@ -53,14 +57,19 @@ img {
 
 .nav-items > li {
   margin-right: 2px;
-  margin-left: 2px;
 }
+
+.nav-items > li:last-child {
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .nav-link {
   text-decoration: none;
   color: #fff;
   font-size: 13px;
   text-transform: uppercase;
-  padding: 14px 16px;
+  padding: 14px 14px;
   font-weight: 600;
 }
 /* CSS Hero */
@@ -69,4 +78,16 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.hero-content {
+  padding: 35vh 0 10vh 0;
+  width: 100%;
+}
+
+.hero-heading {
+  text-align: center;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 5vw;
 }
