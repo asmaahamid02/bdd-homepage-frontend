@@ -34,6 +34,10 @@ img {
   border-radius: 30px;
 }
 
+.btn-long {
+  padding: 14px 16px;
+}
+
 .break {
   display: block;
 }
@@ -42,6 +46,13 @@ img {
   background-color: #ebe9e9;
 }
 
+.shadow {
+  box-shadow: 0 4px 8px 0 #eee, 0 4px 8px 0 #eee;
+}
+
+.shadow-hover:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 /* CSS Navbar */
 .navbar {
   display: flex;
@@ -145,6 +156,7 @@ img {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  height: 75vh;
 }
 
 .section-content > .card:last-child {
@@ -153,6 +165,10 @@ img {
 
 .section-content > .card:first-child {
   margin-left: 10px;
+  border: none;
+  border-radius: 0;
+  display: flex;
+  justify-content: flex-start;
 }
 
 /* CSS Cards */
@@ -166,10 +182,9 @@ img {
   margin: 20px 20px 20px 0;
   flex-basis: 0;
   flex-grow: 1;
-}
-
-.shadow {
-  box-shadow: 10px 10px 5px #cac8c8;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  height: 100%;
 }
 
 .card-header {
@@ -193,12 +208,15 @@ img {
 
 .card-paragraph {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 30px;
   line-height: 1.5;
   color: #646464;
   font-weight: 700;
 }
 
+.card-footer {
+  margin-bottom: 30px;
+}
 /* Video Section */
 .video {
   background-image: url('../images/parallax-7.jpg');
@@ -220,4 +238,30 @@ img {
 
 .video-img img {
   border-radius: 10px;
+}
+
+/* CSS Join BDD */
+.shadow-hover {
+  background-color: #dfdbdb30;
+}
+.join-head {
+  height: auto;
+  text-align: left;
+}
+.card-img img {
+  height: 40vh;
+}
+
+.para-list {
+  text-align: center;
+  margin: 10px;
+  line-height: 1.5;
+  color: #646464;
+  font-weight: 700;
+  padding: 0 10px;
+}
+
+.para-list-item {
+  margin-bottom: 12px;
+  text-align: left;
 }
