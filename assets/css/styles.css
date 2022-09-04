@@ -1,18 +1,34 @@
 /* CSS Reset */
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-img{
- height: 100%;   
+img {
+  height: 100%;
 }
 
 /* CSS Utilities */
 .container {
-width: 100%;
-padding: 0 5vh;  
+  width: 100%;
+  padding: 0 5vh;
 }
 
 /* CSS Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.dropdown-menu {
+  display: none;
+}
+/* CSS Hero */
+.hero {
+  background-image: url('../images/slider/slide1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
