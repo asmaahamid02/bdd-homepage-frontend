@@ -301,9 +301,9 @@ img {
 
 .statistics-content {
   margin-top: 30px;
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .statistics-rows {
@@ -363,4 +363,52 @@ img {
 .statistics-rows p span {
   font-weight: 200;
   font-size: 5vh;
+}
+
+/* CSS Trending */
+.trending {
+  padding: 0;
+}
+
+.image-container {
+  margin-bottom: 10px;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.title {
+  padding: 0 14px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+  margin-top: 20px;
+}
+
+.title:hover {
+  color: #0078be;
+}
+.card-header a {
+  text-decoration: none;
+}
+
+.separator {
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.details {
+  padding: 0 20px;
+  margin: 10px 0;
+}
+
+.details > p {
+  color: #646464;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.section-footer-button {
+  margin: 0 auto;
+  text-align: center;
 }
