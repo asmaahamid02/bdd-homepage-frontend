@@ -33,10 +33,16 @@ img {
   list-style-type: none;
 }
 
+.nav-items > li {
+  margin-right: 2px;
+  margin-left: 2px;
+}
 .nav-link {
   text-decoration: none;
   color: #fff;
   font-size: 14px;
+  text-transform: uppercase;
+  padding: 14px 16px;
 }
 /* CSS Hero */
 .hero {
