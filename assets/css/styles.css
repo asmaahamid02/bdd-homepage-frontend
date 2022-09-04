@@ -33,6 +33,11 @@ img {
   list-style-type: none;
 }
 
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
 /* CSS Hero */
 .hero {
   background-image: url('../images/slider/slide1.jpg');
