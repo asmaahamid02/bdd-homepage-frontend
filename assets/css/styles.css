@@ -91,3 +91,21 @@ img {
   font-weight: bolder;
   font-size: 5vw;
 }
+
+.hero-slide-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 0;
+  margin: 30vh 0;
+}
+
+.dot-item {
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #898585;
+  margin: 8px;
+}
+.dot-item:hover {
+  background-color: #0078be;
+}
