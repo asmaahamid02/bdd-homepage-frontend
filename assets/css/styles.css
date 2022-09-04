@@ -37,6 +37,11 @@ img {
 .break {
   display: block;
 }
+
+.gray {
+  background-color: #ebe9e9;
+}
+
 /* CSS Navbar */
 .navbar {
   display: flex;
@@ -117,4 +122,25 @@ img {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+}
+
+/* CSS Sections */
+.section {
+  padding: 50px 5px;
+}
+
+.section-header {
+  width: 100%;
+  margin: 0 auto 2.5rem auto;
+}
+.header-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 2rem;
+}
+.section-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
