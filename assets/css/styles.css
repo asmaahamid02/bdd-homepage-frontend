@@ -290,3 +290,77 @@ img {
   margin-bottom: 12px;
   text-align: center;
 }
+
+/* CSS Statistics */
+.statistics {
+  background-image: url('../images/parallax-light.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.statistics-content {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.statistics-rows {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  margin: 10px 0 20px 0;
+  width: 25%;
+  flex-grow: 1;
+}
+
+.statistics-rows img,
+.statistics-rows p {
+  margin-bottom: 20px;
+}
+
+.statistics-rows img {
+  height: 12vw;
+}
+
+.statistics-rows p {
+  font-size: 4vh;
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke-width: 2px;
+}
+
+.statistics-rows h6 {
+  margin-bottom: 18px;
+  font-weight: bold;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.counter-num-aqua {
+  color: #0078be;
+  -webkit-text-stroke-color: #0078be;
+}
+
+.counter-num-pink {
+  color: #e13870;
+  -webkit-text-stroke-color: #e13870;
+}
+
+.counter-num-blue {
+  color: #0078be;
+  -webkit-text-stroke-color: #0078be;
+}
+
+.counter-num-green {
+  color: #00802d;
+  -webkit-text-stroke-color: #00802d;
+}
+
+.statistics-rows p span {
+  font-weight: 200;
+  font-size: 5vh;
+}
