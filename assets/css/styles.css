@@ -421,3 +421,41 @@ img {
   background-position: center;
   background-size: conver;
 }
+
+.programs-rows img {
+  height: 15vh;
+}
+
+.programs-rows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  flex-wrap: wrap;
+}
+
+.programs-rows:first-child {
+  flex-direction: column;
+  text-align: center;
+  width: 40%;
+}
+
+.rows-cont {
+  width: 33.3%;
+}
+
+.programs-header,
+.programs-paragraph {
+  margin: 10px 0;
+  padding: 2vh 1vh;
+  color: #fff;
+}
+
+.programs-header {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.programs-paragraph {
+  font-size: 1rem;
+}
