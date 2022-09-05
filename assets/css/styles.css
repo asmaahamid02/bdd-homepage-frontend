@@ -413,3 +413,11 @@ img {
   margin: 0 auto;
   text-align: center;
 }
+
+/* programs */
+.programs {
+  background-image: url('../images/parallax-7.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: conver;
+}
