@@ -469,3 +469,56 @@ img {
   align-items: center;
   width: 100%;
 }
+
+/* CSS Comunity Slider*/
+.community {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.community-slider {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 1 180px;
+}
+
+.community-header {
+  width: 40%;
+  margin-left: 12px;
+  align-self: flex-start;
+  flex: 1 1 180px;
+}
+
+.community-header > h3 {
+  font-weight: 900;
+  font-size: 32px;
+  padding: 15px 0 0 18px;
+}
+
+.community-slider {
+  margin-right: 12px;
+}
+.slider {
+  width: 50%;
+  margin-left: 15px;
+  border-radius: 15px;
+}
+
+.slider > img {
+  height: 90px;
+  width: 90px;
+  margin: 10px 0 0 10px;
+}
+
+.slider > h6 {
+  font-size: 15px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 10px 14px;
+  margin: 14px 0;
+}
